@@ -11,7 +11,7 @@ accepts an `errback` as its only argument . E.g.
 
 ```coffeescript
 beforeFunc = (errback) ->
-  # do stuff
+  console.log 'hello world'
   errback false
 ```
 
