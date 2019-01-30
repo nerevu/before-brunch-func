@@ -6,7 +6,7 @@
   "author": "Nerevu Labs",
   "license": "MIT",
   "scripts": {
-    "prepare": "rm -rf lib && coffee --bare --output lib/ src/",
+    "preinstall": "rm -rf lib && coffee --bare --output lib/ src/",
     "watch": "coffee --bare --watch --output lib/ src/"
   },
   "readmeFilename": "README.md",
